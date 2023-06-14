@@ -57,7 +57,7 @@ services:
       # Mac. If your Docker engine is using another platform/OS, please refer to
       # the relevant documentation with regards to finding the Host IP address
       # for your platform.
-      KAFKA_ADVERTISED_HOST_NAME: docker.for.mac.localhost
+      # KAFKA_ADVERTISED_HOST_NAME: docker.for.mac.localhost
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_CREATE_TOPICS: "logstash_logs:1:1"
     links:
